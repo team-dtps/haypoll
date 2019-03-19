@@ -1,0 +1,35 @@
+{
+  "name": "haypoll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-dtps/haypoll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-dtps/haypoll/issues"
+  },
+  "homepage": "https://github.com/team-dtps/haypoll#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "auth0": "^2.15.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jwks-rsa": "^1.4.0",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {
+    "chance": "^1.0.18",
+    "eslint": "^5.15.1",
+    "jest": "^24.5.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.0"
+  }
+}
